@@ -1,0 +1,7 @@
+.github
+/.env
+/.vscode
+__pycache__
+*.pyc
+*.pyo
+*.pyd

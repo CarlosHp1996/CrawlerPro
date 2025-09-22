@@ -1,0 +1,173 @@
+2025-09-18 11:18:53 - src.utils - INFO - Iniciando crawler para: cafeína
+2025-09-18 11:18:53 - src.crawler - INFO - Iniciando busca por: cafeína
+2025-09-18 11:19:09 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/cafe%C3%ADna
+2025-09-18 11:19:16 - src.crawler - INFO - Página 1: Layout detectado: poly-card
+2025-09-18 11:19:16 - src.crawler - INFO - Página 1: 57 containers encontrados
+2025-09-18 11:19:17 - src.crawler - INFO - Página 1: 57 produtos extraídos
+2025-09-18 11:19:17 - src.crawler - INFO - Primeiro produto - Título: Termogênico Therma Burn 210mg De Cafeína 120 Caps Dark Lab Sabor Sem sabor
+2025-09-18 11:19:17 - src.crawler - INFO - Primeiro produto - Preço: 49
+2025-09-18 11:19:17 - src.crawler - INFO - Primeiro produto - Vendedor: Por Dark Lab
+2025-09-18 11:19:17 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_cafeína_20250918_111917.json
+2025-09-18 11:19:17 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 11:19:18 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_cafeína_20250918_111918.json
+2025-09-18 11:19:18 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 13:44:53 - src.utils - INFO - Iniciando crawler para: iphone 15
+2025-09-18 13:44:53 - src.crawler - INFO - Iniciando busca por: iphone 15
+2025-09-18 13:45:06 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-18 13:45:13 - src.crawler - INFO - Página 1: Layout detectado: poly-card
+2025-09-18 13:45:13 - src.crawler - INFO - Página 1: 51 containers encontrados
+2025-09-18 13:45:13 - src.crawler - INFO - Página 1: 51 produtos extraídos
+2025-09-18 13:45:13 - src.crawler - INFO - Primeiro produto - Título: Apple iPhone 15 Plus (256 GB) - Preto
+2025-09-18 13:45:13 - src.crawler - INFO - Primeiro produto - Preço: 6.347
+2025-09-18 13:45:13 - src.crawler - INFO - Primeiro produto - Vendedor: Por CELL TRONICS
+2025-09-18 13:45:14 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250918_134514.json
+2025-09-18 13:45:14 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 13:45:15 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250918_134515.json
+2025-09-18 13:45:15 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 13:45:34 - src.utils - INFO - Iniciando crawler para: creatina
+2025-09-18 13:45:34 - src.crawler - INFO - Iniciando busca por: creatina
+2025-09-18 13:45:36 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-18 13:45:40 - src.crawler - INFO - Página 1: Layout detectado: poly-card
+2025-09-18 13:45:40 - src.crawler - INFO - Página 1: 52 containers encontrados
+2025-09-18 13:45:41 - src.crawler - INFO - Página 1: 52 produtos extraídos
+2025-09-18 13:45:41 - src.crawler - INFO - Primeiro produto - Título: Creatina 100% Pura Monohidratada 300g Adaptogen - Original
+2025-09-18 13:45:41 - src.crawler - INFO - Primeiro produto - Preço: 64
+2025-09-18 13:45:41 - src.crawler - INFO - Primeiro produto - Vendedor: Por Amigao Suplementos
+2025-09-18 13:45:41 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_134541.json
+2025-09-18 13:45:41 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 13:45:41 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_134541.json
+2025-09-18 13:45:41 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 20:23:04 - src.utils - INFO - Iniciando crawler para: iphone 15
+2025-09-18 20:23:04 - src.crawler - INFO - Iniciando busca por: iphone 15
+2025-09-18 20:23:10 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-18 20:23:12 - src.crawler - INFO - Página 1: Layout detectado: classic
+2025-09-18 20:23:12 - src.crawler - INFO - Página 1: 0 containers encontrados
+2025-09-18 20:23:12 - src.crawler - INFO - Página 1: 0 produtos extraídos
+2025-09-18 20:23:12 - src.crawler - INFO - Nenhum produto encontrado na página 1. Parando.
+2025-09-18 20:23:12 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250918_202312.json
+2025-09-18 20:23:12 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 20:23:12 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250918_202312.json
+2025-09-18 20:23:12 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 20:24:14 - src.utils - INFO - Iniciando crawler para: iphone 15
+2025-09-18 20:24:14 - src.crawler - INFO - Iniciando busca por: iphone 15
+2025-09-18 20:24:15 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-18 20:24:16 - src.crawler - INFO - Página 1: Layout detectado: classic
+2025-09-18 20:24:16 - src.crawler - INFO - Página 1: 0 containers encontrados
+2025-09-18 20:24:16 - src.crawler - INFO - Página 1: 0 produtos extraídos
+2025-09-18 20:24:16 - src.crawler - INFO - Nenhum produto encontrado na página 1. Parando.
+2025-09-18 20:24:16 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250918_202416.json
+2025-09-18 20:24:16 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 20:24:16 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250918_202416.json
+2025-09-18 20:24:16 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 20:24:50 - src.utils - INFO - Iniciando crawler para: creatina
+2025-09-18 20:24:50 - src.crawler - INFO - Iniciando busca por: creatina
+2025-09-18 20:24:51 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-18 20:24:52 - src.crawler - INFO - Página 1: Layout detectado: classic
+2025-09-18 20:24:52 - src.crawler - INFO - Página 1: 0 containers encontrados
+2025-09-18 20:24:52 - src.crawler - INFO - Página 1: 0 produtos extraídos
+2025-09-18 20:24:52 - src.crawler - INFO - Nenhum produto encontrado na página 1. Parando.
+2025-09-18 20:24:52 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_202452.json
+2025-09-18 20:24:52 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 20:24:52 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_202452.json
+2025-09-18 20:24:52 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 20:26:02 - src.utils - INFO - Iniciando crawler para: creatina
+2025-09-18 20:26:02 - src.crawler - INFO - Iniciando busca por: creatina
+2025-09-18 20:26:03 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-18 20:26:04 - src.crawler - INFO - Página 1: Layout detectado: classic
+2025-09-18 20:26:04 - src.crawler - INFO - Página 1: 0 containers encontrados
+2025-09-18 20:26:04 - src.crawler - INFO - Página 1: 0 produtos extraídos
+2025-09-18 20:26:04 - src.crawler - INFO - Nenhum produto encontrado na página 1. Parando.
+2025-09-18 20:26:04 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_202604.json
+2025-09-18 20:26:04 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 20:26:04 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_202604.json
+2025-09-18 20:26:04 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 20:34:58 - src.utils - INFO - Iniciando crawler para: creatina
+2025-09-18 20:34:58 - src.crawler - INFO - Iniciando busca por: creatina
+2025-09-18 20:35:00 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-18 20:35:01 - src.crawler - INFO - Página 1: Layout detectado: classic
+2025-09-18 20:35:01 - src.crawler - INFO - Página 1: 0 containers encontrados
+2025-09-18 20:35:01 - src.crawler - INFO - Página 1: 0 produtos extraídos
+2025-09-18 20:35:01 - src.crawler - INFO - Nenhum produto encontrado na página 1. Parando.
+2025-09-18 20:35:02 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_203502.json
+2025-09-18 20:35:02 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 20:35:02 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_203502.json
+2025-09-18 20:35:02 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 21:45:52 - src.utils - INFO - Iniciando crawler para: whey
+2025-09-18 21:45:52 - src.crawler - INFO - Iniciando busca por: whey
+2025-09-18 21:45:54 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/whey
+2025-09-18 21:45:55 - src.crawler - INFO - Página 1: Layout detectado: classic
+2025-09-18 21:45:55 - src.crawler - INFO - Página 1: 0 containers encontrados
+2025-09-18 21:45:55 - src.crawler - INFO - Página 1: 0 produtos extraídos
+2025-09-18 21:45:55 - src.crawler - INFO - Nenhum produto encontrado na página 1. Parando.
+2025-09-18 21:45:55 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_whey_20250918_214555.json
+2025-09-18 21:45:55 - src.utils - ERROR - Erro na execução: No module named 'openpyxl'
+2025-09-18 21:45:55 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_whey_20250918_214555.json
+2025-09-18 21:45:55 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
+2025-09-18 21:51:19 - src.utils - INFO - Iniciando crawler para: creatina
+2025-09-18 21:51:19 - src.crawler - INFO - Iniciando busca por: creatina
+2025-09-18 21:51:28 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-18 21:51:29 - src.crawler - INFO - Página 1: Layout detectado: classic
+2025-09-18 21:51:29 - src.crawler - INFO - Página 1: 0 containers encontrados
+2025-09-18 21:51:29 - src.crawler - INFO - Página 1: 0 produtos extraídos
+2025-09-18 21:51:29 - src.crawler - INFO - Nenhum produto encontrado na página 1. Parando.
+2025-09-18 21:51:29 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_215129.json
+2025-09-18 21:51:30 - src.utils - INFO - Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_creatina_20250918_215129.xlsx
+2025-09-18 21:51:30 - src.utils - ERROR - Erro na execução: 'dict' object has no attribute 'search_term'
+2025-09-18 21:51:30 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_215130.json
+2025-09-18 21:51:30 - src.utils - INFO - Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_creatina_20250918_215130.xlsx
+2025-09-18 22:35:40 - src.utils - INFO - 🕵️  Modo stealth ativado - usando delays maiores
+2025-09-18 22:35:40 - src.utils - INFO - ============================================================
+2025-09-18 22:35:40 - src.utils - INFO - 🚀 CRAWLER MERCADO LIVRE - VERSÃO ANTI-BLOQUEIO
+2025-09-18 22:35:40 - src.utils - INFO - ============================================================
+2025-09-18 22:35:40 - src.utils - INFO - Termo de busca: iphone 15
+2025-09-18 22:35:40 - src.utils - INFO - Páginas máximas: 1
+2025-09-18 22:35:40 - src.utils - INFO - Delay entre páginas: 12.0s
+2025-09-18 22:35:40 - src.utils - INFO - Tentativas máximas: 3
+2025-09-18 22:35:40 - src.utils - INFO - 🎯 Iniciando tentativa 1 para: iphone 15
+2025-09-18 22:35:40 - src.crawler - INFO - Iniciando busca aprimorada por: iphone 15
+2025-09-18 22:35:44 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-18 22:35:45 - src.crawler - ERROR - Página de verificação detectada - IP possivelmente bloqueado
+2025-09-18 22:35:45 - src.crawler - INFO - Tentativas de contorno:
+2025-09-18 22:35:45 - src.crawler - INFO - 1. Aguardar algumas horas/dias
+2025-09-18 22:35:45 - src.crawler - INFO - 2. Usar VPN ou proxy
+2025-09-18 22:35:45 - src.crawler - INFO - 3. Trocar de rede (4G/WiFi)
+2025-09-18 22:35:45 - src.utils - WARNING - ❌ Tentativa 1 falhou: Nenhum produto encontrado
+2025-09-18 22:35:45 - src.utils - INFO - 🔄 Tentativa 2/3 - Aguardando 120s...
+2025-09-18 22:37:45 - src.utils - INFO - 🎯 Iniciando tentativa 2 para: iphone 15
+2025-09-18 22:37:45 - src.crawler - INFO - Iniciando busca aprimorada por: iphone 15
+2025-09-18 22:37:46 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-18 22:37:47 - src.crawler - ERROR - Página de verificação detectada - IP possivelmente bloqueado
+2025-09-18 22:37:47 - src.crawler - INFO - Tentativas de contorno:
+2025-09-18 22:37:47 - src.crawler - INFO - 1. Aguardar algumas horas/dias
+2025-09-18 22:37:47 - src.crawler - INFO - 2. Usar VPN ou proxy
+2025-09-18 22:37:47 - src.crawler - INFO - 3. Trocar de rede (4G/WiFi)
+2025-09-18 22:37:47 - src.utils - WARNING - ❌ Tentativa 2 falhou: Nenhum produto encontrado
+2025-09-18 22:37:47 - src.utils - INFO - 🔄 Tentativa 3/3 - Aguardando 180s...
+2025-09-18 22:40:47 - src.utils - INFO - 🎯 Iniciando tentativa 3 para: iphone 15
+2025-09-18 22:40:47 - src.crawler - INFO - Iniciando busca aprimorada por: iphone 15
+2025-09-18 22:40:51 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-18 22:40:52 - src.crawler - ERROR - Página de verificação detectada - IP possivelmente bloqueado
+2025-09-18 22:40:52 - src.crawler - INFO - Tentativas de contorno:
+2025-09-18 22:40:52 - src.crawler - INFO - 1. Aguardar algumas horas/dias
+2025-09-18 22:40:52 - src.crawler - INFO - 2. Usar VPN ou proxy
+2025-09-18 22:40:52 - src.crawler - INFO - 3. Trocar de rede (4G/WiFi)
+2025-09-18 22:40:53 - src.utils - WARNING - ❌ Tentativa 3 falhou: Nenhum produto encontrado
+2025-09-18 22:40:53 - src.utils - INFO - 💾 JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250918_224053.json
+2025-09-18 22:40:53 - src.utils - INFO - 📊 Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_iphone_15_20250918_224053.xlsx
+2025-09-18 23:30:31 - src.utils - INFO - ============================================================
+2025-09-18 23:30:31 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-18 23:30:31 - src.utils - INFO - ============================================================
+2025-09-18 23:30:31 - src.utils - INFO - Modo PRODUÇÃO ativado - usando proxies e rate limiting
+2025-09-18 23:30:31 - src.utils - INFO - Conectando ao Redis container 'redis-dev'...
+2025-09-18 23:30:31 - src.utils - INFO - ✓ Conexão com Redis estabelecida com sucesso!
+2025-09-18 23:30:31 - src.utils - INFO - Nenhum proxy configurado - usando IP local
+2025-09-18 23:30:33 - src.utils - INFO - Iniciando crawler simples para: creatina
+2025-09-18 23:30:33 - src.crawler - INFO - Iniciando busca aprimorada por: creatina
+2025-09-18 23:30:35 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-18 23:30:36 - src.crawler - ERROR - Página de verificação detectada - IP possivelmente bloqueado
+2025-09-18 23:30:36 - src.crawler - INFO - Tentativas de contorno:
+2025-09-18 23:30:36 - src.crawler - INFO - 1. Aguardar algumas horas/dias
+2025-09-18 23:30:36 - src.crawler - INFO - 2. Usar VPN ou proxy
+2025-09-18 23:30:36 - src.crawler - INFO - 3. Trocar de rede (4G/WiFi)
+2025-09-18 23:30:37 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250918_233037.json
+2025-09-18 23:30:37 - src.utils - INFO - Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_creatina_20250918_233037.xlsx

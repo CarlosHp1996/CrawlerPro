@@ -1,0 +1,697 @@
+2025-09-19 00:04:41 - src.utils - INFO - ============================================================
+2025-09-19 00:04:41 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:04:41 - src.utils - INFO - ============================================================
+2025-09-19 00:04:41 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:04:43 - src.utils - INFO - 🚀 Iniciando crawler ANTI-BLOQUEIO para: iphone 15
+2025-09-19 00:04:43 - anti_block_crawler - INFO - 🚀 Iniciando busca ANTI-BLOQUEIO para: iphone 15
+2025-09-19 00:04:44 - anti_block_crawler - INFO - Carregados 10 proxies gratuitos
+2025-09-19 00:04:44 - anti_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 00:04:50 - anti_block_crawler - ERROR - 🚫 Página de verificação detectada
+2025-09-19 00:04:50 - anti_block_crawler - INFO - 🔄 Tentando com proxy...
+2025-09-19 00:04:58 - anti_block_crawler - INFO - 🎯 Busca finalizada: 0 produtos em 15.1s
+2025-09-19 00:04:58 - src.utils - WARNING - ⚠️ Crawler anti-bloqueio falhou, tentando método original...
+2025-09-19 00:04:58 - src.utils - INFO - Iniciando crawler original para: iphone 15
+2025-09-19 00:04:58 - src.crawler - INFO - Iniciando busca aprimorada por: iphone 15
+2025-09-19 00:04:59 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 00:05:02 - src.crawler - ERROR - Página de verificação detectada - IP possivelmente bloqueado
+2025-09-19 00:05:02 - src.crawler - INFO - Tentativas de contorno:
+2025-09-19 00:05:02 - src.crawler - INFO - 1. Aguardar algumas horas/dias
+2025-09-19 00:05:02 - src.crawler - INFO - 2. Usar VPN ou proxy
+2025-09-19 00:05:02 - src.crawler - INFO - 3. Trocar de rede (4G/WiFi)
+2025-09-19 00:05:03 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_000503.json
+2025-09-19 00:05:04 - src.utils - INFO - Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_iphone_15_20250919_000503.xlsx
+2025-09-19 00:11:11 - src.utils - INFO - ============================================================
+2025-09-19 00:11:11 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:11:11 - src.utils - INFO - ============================================================
+2025-09-19 00:11:11 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:11:12 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 00:11:12 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 00:11:14 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 00:11:17 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, verification
+2025-09-19 00:11:17 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:11:17 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:11:17 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:11:18 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:11:18 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:11:18 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Creatina Monohidratada Muscletech 400g Sem Sabor...
+2025-09-19 00:11:19 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 6.9s
+2025-09-19 00:11:19 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:11:19 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:11:19 - src.utils - ERROR - Erro ao salvar arquivos: Object of type function is not JSON serializable
+2025-09-19 00:12:32 - src.utils - INFO - ============================================================
+2025-09-19 00:12:32 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:12:32 - src.utils - INFO - ============================================================
+2025-09-19 00:12:32 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:12:33 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 00:12:33 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 00:12:35 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 00:12:39 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, verification
+2025-09-19 00:12:39 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:12:39 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:12:40 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:12:40 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:12:40 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:12:40 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Creatina Monohidratada Muscletech 400g Sem Sabor...
+2025-09-19 00:12:40 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 6.9s
+2025-09-19 00:12:40 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:12:40 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:12:40 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_001240.json
+2025-09-19 00:12:41 - src.utils - INFO - Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_creatina_20250919_001240.xlsx
+2025-09-19 00:20:34 - src.utils - INFO - ============================================================
+2025-09-19 00:20:34 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:20:34 - src.utils - INFO - ============================================================
+2025-09-19 00:20:34 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:20:35 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 00:20:35 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 00:20:36 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 00:20:41 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, verification
+2025-09-19 00:20:41 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:20:41 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:20:41 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:20:42 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:20:42 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:20:42 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Creatina 100% Pura Monohidratada 300g Adaptogen - ...
+2025-09-19 00:20:48 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 12.9s
+2025-09-19 00:20:48 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:20:48 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:20:48 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_002048.json
+2025-09-19 00:20:48 - src.utils - INFO - Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_creatina_20250919_002048.xlsx
+2025-09-19 00:26:18 - src.utils - INFO - ============================================================
+2025-09-19 00:26:18 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:26:18 - src.utils - INFO - ============================================================
+2025-09-19 00:26:18 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:26:19 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 00:26:19 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 00:26:20 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 00:26:24 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, verification
+2025-09-19 00:26:24 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:26:24 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:26:24 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:26:25 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:26:25 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:26:25 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Creatina 100% Pura Monohidratada 300g Adaptogen - ...
+2025-09-19 00:26:25 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 6.0s
+2025-09-19 00:26:25 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:26:25 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:26:25 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_002625.json
+2025-09-19 00:26:26 - src.utils - INFO - Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_creatina_20250919_002625.xlsx
+2025-09-19 00:29:51 - src.utils - INFO - ============================================================
+2025-09-19 00:29:51 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:29:51 - src.utils - INFO - ============================================================
+2025-09-19 00:29:51 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:29:52 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 00:29:52 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 00:29:53 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 00:29:57 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, verification
+2025-09-19 00:29:57 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:29:57 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:29:57 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:29:58 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:29:58 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:29:58 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Creatina 100% Pura Monohidratada 300g Adaptogen - ...
+2025-09-19 00:29:59 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 6.6s
+2025-09-19 00:29:59 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:29:59 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:29:59 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_002959.json
+2025-09-19 00:29:59 - src.utils - INFO - Excel salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\excel\mercadolivre_creatina_20250919_002959.xlsx
+2025-09-19 00:37:31 - src.utils - INFO - ============================================================
+2025-09-19 00:37:31 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:37:31 - src.utils - INFO - ============================================================
+2025-09-19 00:37:31 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:37:35 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: teste
+2025-09-19 00:37:35 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: teste
+2025-09-19 00:37:47 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/teste
+2025-09-19 00:37:54 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, verification
+2025-09-19 00:37:54 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:37:54 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:37:54 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:37:55 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:37:55 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:37:55 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Testador Medidor Teste De Bateria Alternador 12v A...
+2025-09-19 00:37:55 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 20.0s
+2025-09-19 00:37:55 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:37:55 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:37:55 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_teste_20250919_003755.json
+2025-09-19 00:37:55 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 00:38:00 - src.utils - INFO - ============================================================
+2025-09-19 00:38:00 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:38:00 - src.utils - INFO - ============================================================
+2025-09-19 00:38:00 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:38:02 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: teste
+2025-09-19 00:38:02 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: teste
+2025-09-19 00:38:04 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/teste
+2025-09-19 00:38:11 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, verification
+2025-09-19 00:38:11 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:38:11 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:38:12 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:38:12 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:38:12 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:38:12 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Testador Medidor Teste De Bateria Alternador 12v A...
+2025-09-19 00:38:13 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 10.5s
+2025-09-19 00:38:13 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:38:13 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:38:13 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_teste_20250919_003813.json
+2025-09-19 00:38:13 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 00:38:27 - src.utils - INFO - ============================================================
+2025-09-19 00:38:27 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:38:27 - src.utils - INFO - ============================================================
+2025-09-19 00:38:27 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:38:29 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 00:38:29 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 00:38:31 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 00:38:36 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, verification
+2025-09-19 00:38:36 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:38:36 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:38:36 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:38:37 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:38:37 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:38:37 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Creatina 100% Pura Monohidratada 300g Adaptogen - ...
+2025-09-19 00:38:38 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 8.9s
+2025-09-19 00:38:38 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:38:38 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:38:38 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_003838.json
+2025-09-19 00:38:38 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 00:40:40 - src.utils - INFO - ============================================================
+2025-09-19 00:40:40 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:40:40 - src.utils - INFO - ============================================================
+2025-09-19 00:40:40 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:40:42 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 00:40:42 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 00:40:44 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 00:40:48 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot
+2025-09-19 00:40:48 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:40:48 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:40:48 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:40:49 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:40:49 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:40:49 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Apple iPhone 15 (128 GB) - Verde - Distribuidor Au...
+2025-09-19 00:40:50 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 7.9s
+2025-09-19 00:40:50 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:40:50 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:40:50 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_004050.json
+2025-09-19 00:40:50 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 00:43:22 - src.utils - INFO - ============================================================
+2025-09-19 00:43:22 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:43:22 - src.utils - INFO - ============================================================
+2025-09-19 00:43:22 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:43:26 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 16
+2025-09-19 00:43:26 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: iphone 16
+2025-09-19 00:43:39 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2016
+2025-09-19 00:43:44 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot
+2025-09-19 00:43:44 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:43:44 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:43:44 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 53 containers
+2025-09-19 00:43:45 - soft_block_crawler - INFO - ✅ Página 1: 53/53 produtos extraídos com sucesso
+2025-09-19 00:43:45 - soft_block_crawler - INFO - ✅ Página 1: 53 produtos extraídos (com detecção soft)
+2025-09-19 00:43:45 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Apple iPhone 16 (128 GB) - Preto - Distribuidor Au...
+2025-09-19 00:43:45 - soft_block_crawler - INFO - 🎯 Busca finalizada: 53 produtos em 19.2s
+2025-09-19 00:43:45 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:43:45 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:43:45 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_16_20250919_004345.json
+2025-09-19 00:43:45 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 00:45:00 - src.utils - INFO - ============================================================
+2025-09-19 00:45:00 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:45:00 - src.utils - INFO - ============================================================
+2025-09-19 00:45:00 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:45:02 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 00:45:02 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 00:45:03 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 00:45:07 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot
+2025-09-19 00:45:07 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:45:07 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:45:07 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 51 containers
+2025-09-19 00:45:08 - soft_block_crawler - INFO - ✅ Página 1: 51/51 produtos extraídos com sucesso
+2025-09-19 00:45:08 - soft_block_crawler - INFO - ✅ Página 1: 51 produtos extraídos (com detecção soft)
+2025-09-19 00:45:08 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Apple iPhone 15 (128 GB) - Verde - Distribuidor Au...
+2025-09-19 00:45:09 - soft_block_crawler - INFO - 🎯 Busca finalizada: 51 produtos em 7.3s
+2025-09-19 00:45:09 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:45:09 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:45:09 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_004509.json
+2025-09-19 00:45:09 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 00:48:05 - src.utils - INFO - ============================================================
+2025-09-19 00:48:05 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:48:05 - src.utils - INFO - ============================================================
+2025-09-19 00:48:05 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:48:07 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 00:48:07 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 00:48:09 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 00:48:13 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot
+2025-09-19 00:48:13 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:48:13 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:48:14 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:48:15 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:48:15 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:48:15 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Apple iPhone 15 (128 GB) - Verde - Distribuidor Au...
+2025-09-19 00:48:15 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 7.9s
+2025-09-19 00:48:15 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:48:15 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:48:15 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_004815.json
+2025-09-19 00:48:15 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 00:53:09 - src.utils - INFO - ============================================================
+2025-09-19 00:53:09 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:53:09 - src.utils - INFO - ============================================================
+2025-09-19 00:53:09 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:53:11 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 00:53:11 - soft_block_crawler - INFO - 🎯 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 00:53:12 - soft_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 00:53:15 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot
+2025-09-19 00:53:15 - soft_block_crawler - INFO - 💡 Mas continuando extração - produtos podem estar presentes
+2025-09-19 00:53:15 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 00:53:16 - soft_block_crawler - INFO - 📦 Estratégia 1 encontrou 52 containers
+2025-09-19 00:53:16 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 00:53:16 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 00:53:16 - soft_block_crawler - INFO - 🛍️ Primeiro produto: Apple iPhone 15 (128 GB) - Verde - Distribuidor Au...
+2025-09-19 00:53:17 - soft_block_crawler - INFO - 🎯 Busca finalizada: 52 produtos em 5.5s
+2025-09-19 00:53:17 - soft_block_crawler - INFO - 🎉 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 00:53:17 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 00:53:17 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_005317.json
+2025-09-19 00:53:17 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 00:58:58 - src.utils - INFO - ============================================================
+2025-09-19 00:58:58 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 00:58:58 - src.utils - INFO - ============================================================
+2025-09-19 00:58:58 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 00:59:00 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 00:59:00 - src.utils - WARNING - ⚠️ Erro no crawler soft-block-ignore: 'SoftBlockIgnoreCrawler' object has no attribute 'search_products_ignore_soft_block'
+2025-09-19 00:59:00 - src.utils - INFO - 🔄 Fallback para anti-bloqueio...
+2025-09-19 00:59:00 - src.utils - INFO - 🚀 Iniciando crawler ANTI-BLOQUEIO para: iphone 15
+2025-09-19 00:59:00 - anti_block_crawler - INFO - 🚀 Iniciando busca ANTI-BLOQUEIO para: iphone 15
+2025-09-19 00:59:01 - anti_block_crawler - INFO - Carregados 10 proxies gratuitos
+2025-09-19 00:59:01 - anti_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 00:59:06 - anti_block_crawler - ERROR - 🚫 Página de verificação detectada
+2025-09-19 00:59:06 - anti_block_crawler - INFO - 🔄 Tentando com proxy...
+2025-09-19 00:59:15 - anti_block_crawler - INFO - 🎯 Busca finalizada: 0 produtos em 15.1s
+2025-09-19 00:59:15 - src.utils - WARNING - ⚠️ Crawler anti-bloqueio falhou, tentando método original...
+2025-09-19 00:59:15 - src.utils - INFO - Iniciando crawler original para: iphone 15
+2025-09-19 00:59:15 - src.crawler - INFO - Iniciando busca aprimorada por: iphone 15
+2025-09-19 00:59:16 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 00:59:19 - src.crawler - INFO - Página 1: Layout detectado: poly-card
+2025-09-19 00:59:19 - src.crawler - INFO - Página 1: 52 containers encontrados
+2025-09-19 00:59:19 - src.crawler - INFO - Página 1: 52 produtos extraídos
+2025-09-19 00:59:19 - src.crawler - INFO - Primeiro produto - Título: Apple iPhone 15 (128 GB) - Verde - Distribuidor Autorizado
+2025-09-19 00:59:19 - src.crawler - INFO - Primeiro produto - Preço: 4.089
+2025-09-19 00:59:19 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_005919.json
+2025-09-19 00:59:19 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 01:02:05 - src.utils - INFO - ============================================================
+2025-09-19 01:02:05 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 01:02:05 - src.utils - INFO - ============================================================
+2025-09-19 01:02:05 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 01:02:06 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 01:02:06 - src.utils - WARNING - ⚠️ Erro no crawler soft-block-ignore: 'SoftBlockIgnoreCrawler' object has no attribute 'search_products_ignore_soft_block'
+2025-09-19 01:02:06 - src.utils - INFO - 🔄 Fallback para anti-bloqueio...
+2025-09-19 01:02:06 - src.utils - INFO - 🚀 Iniciando crawler ANTI-BLOQUEIO para: creatina
+2025-09-19 01:02:06 - anti_block_crawler - INFO - 🚀 Iniciando busca ANTI-BLOQUEIO para: creatina
+2025-09-19 01:02:12 - anti_block_crawler - INFO - Carregados 10 proxies gratuitos
+2025-09-19 01:02:12 - anti_block_crawler - INFO - 📄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 01:02:17 - anti_block_crawler - ERROR - 🚫 Página de verificação detectada
+2025-09-19 01:02:17 - anti_block_crawler - INFO - 🔄 Tentando com proxy...
+2025-09-19 01:02:40 - anti_block_crawler - INFO - 🎯 Busca finalizada: 0 produtos em 34.2s
+2025-09-19 01:02:40 - src.utils - WARNING - ⚠️ Crawler anti-bloqueio falhou, tentando método original...
+2025-09-19 01:02:40 - src.utils - INFO - Iniciando crawler original para: creatina
+2025-09-19 01:02:40 - src.crawler - INFO - Iniciando busca aprimorada por: creatina
+2025-09-19 01:02:41 - src.crawler - INFO - Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 01:02:45 - src.crawler - ERROR - Página de verificação detectada - IP possivelmente bloqueado
+2025-09-19 01:02:45 - src.crawler - INFO - Tentativas de contorno:
+2025-09-19 01:02:45 - src.crawler - INFO - 1. Aguardar algumas horas/dias
+2025-09-19 01:02:45 - src.crawler - INFO - 2. Usar VPN ou proxy
+2025-09-19 01:02:45 - src.crawler - INFO - 3. Trocar de rede (4G/WiFi)
+2025-09-19 01:02:45 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_010245.json
+2025-09-19 01:03:11 - src.utils - INFO - ============================================================
+2025-09-19 01:03:11 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 01:03:11 - src.utils - INFO - ============================================================
+2025-09-19 01:03:11 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 01:03:13 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 01:03:13 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 01:03:14 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 01:03:18 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 01:03:18 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 01:03:18 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 01:03:19 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 53 containers
+2025-09-19 01:03:20 - soft_block_crawler - INFO - ✅ Página 1: 53/53 produtos extraídos com sucesso
+2025-09-19 01:03:20 - soft_block_crawler - INFO - ✅ Página 1: 53 produtos extraídos (com detecção soft)
+2025-09-19 01:03:20 - soft_block_crawler - INFO - 🔍 Busca finalizada: 53 produtos em 7.2s
+2025-09-19 01:03:20 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 01:03:20 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 01:03:20 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_010320.json
+2025-09-19 01:04:12 - src.utils - INFO - ============================================================
+2025-09-19 01:04:12 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 01:04:12 - src.utils - INFO - ============================================================
+2025-09-19 01:04:12 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 01:04:13 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 16
+2025-09-19 01:04:13 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 16
+2025-09-19 01:04:15 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2016
+2025-09-19 01:04:19 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 01:04:19 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 01:04:19 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 01:04:20 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 54 containers
+2025-09-19 01:04:22 - soft_block_crawler - INFO - ✅ Página 1: 54/54 produtos extraídos com sucesso
+2025-09-19 01:04:22 - soft_block_crawler - INFO - ✅ Página 1: 54 produtos extraídos (com detecção soft)
+2025-09-19 01:04:23 - soft_block_crawler - INFO - 🔍 Busca finalizada: 54 produtos em 9.0s
+2025-09-19 01:04:23 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 01:04:23 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 01:04:23 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_16_20250919_010423.json
+2025-09-19 01:04:23 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 01:07:57 - src.utils - INFO - ============================================================
+2025-09-19 01:07:57 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 01:07:57 - src.utils - INFO - ============================================================
+2025-09-19 01:07:57 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 01:07:59 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 01:07:59 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 01:08:00 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 01:08:04 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 01:08:04 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 01:08:04 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 01:08:04 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 58 containers
+2025-09-19 01:08:05 - soft_block_crawler - INFO - ✅ Página 1: 58/58 produtos extraídos com sucesso
+2025-09-19 01:08:05 - soft_block_crawler - INFO - ✅ Página 1: 58 produtos extraídos (com detecção soft)
+2025-09-19 01:08:06 - soft_block_crawler - INFO - 🔍 Busca finalizada: 58 produtos em 6.8s
+2025-09-19 01:08:06 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 01:08:06 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 01:08:06 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_010806.json
+2025-09-19 01:09:48 - src.utils - INFO - ============================================================
+2025-09-19 01:09:48 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 01:09:48 - src.utils - INFO - ============================================================
+2025-09-19 01:09:48 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 01:09:49 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 01:09:49 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 01:09:51 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 01:09:54 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 01:09:54 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 01:09:54 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 01:09:55 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 01:09:56 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 01:09:56 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 01:09:56 - soft_block_crawler - INFO - 🔍 Busca finalizada: 52 produtos em 6.4s
+2025-09-19 01:09:56 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 01:09:56 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 01:09:56 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_010956.json
+2025-09-19 01:10:13 - src.utils - INFO - ============================================================
+2025-09-19 01:10:13 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 01:10:13 - src.utils - INFO - ============================================================
+2025-09-19 01:10:13 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 01:10:15 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 01:10:15 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 01:10:16 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 01:10:20 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 01:10:20 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 01:10:20 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 01:10:22 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 53 containers
+2025-09-19 01:10:23 - soft_block_crawler - INFO - ✅ Página 1: 53/53 produtos extraídos com sucesso
+2025-09-19 01:10:23 - soft_block_crawler - INFO - ✅ Página 1: 53 produtos extraídos (com detecção soft)
+2025-09-19 01:10:23 - soft_block_crawler - INFO - 🔍 Busca finalizada: 53 produtos em 8.5s
+2025-09-19 01:10:23 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 01:10:23 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 01:10:23 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_011023.json
+2025-09-19 01:10:53 - src.utils - INFO - ============================================================
+2025-09-19 01:10:53 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 01:10:53 - src.utils - INFO - ============================================================
+2025-09-19 01:10:53 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 01:10:54 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: creatina
+2025-09-19 01:10:54 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: creatina
+2025-09-19 01:10:55 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/creatina
+2025-09-19 01:10:59 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 01:10:59 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 01:10:59 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 01:10:59 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 53 containers
+2025-09-19 01:11:00 - soft_block_crawler - INFO - ✅ Página 1: 53/53 produtos extraídos com sucesso
+2025-09-19 01:11:00 - soft_block_crawler - INFO - ✅ Página 1: 53 produtos extraídos (com detecção soft)
+2025-09-19 01:11:01 - soft_block_crawler - INFO - 🔍 Busca finalizada: 53 produtos em 6.4s
+2025-09-19 01:11:01 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 01:11:01 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 01:11:01 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_creatina_20250919_011101.json
+2025-09-19 01:12:06 - src.utils - INFO - ============================================================
+2025-09-19 01:12:06 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 01:12:06 - src.utils - INFO - ============================================================
+2025-09-19 01:12:06 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 01:12:07 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 01:12:07 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 01:12:08 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 01:12:11 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 01:12:11 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 01:12:11 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 01:12:12 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 01:12:13 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 01:12:13 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 01:12:14 - soft_block_crawler - INFO - 🔍 Busca finalizada: 52 produtos em 6.5s
+2025-09-19 01:12:14 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 01:12:14 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 01:12:14 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_011214.json
+2025-09-19 01:12:14 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 11:08:08 - src.utils - INFO - ============================================================
+2025-09-19 11:08:08 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:08:08 - src.utils - INFO - ============================================================
+2025-09-19 11:08:08 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:08:12 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 13
+2025-09-19 11:08:12 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 13
+2025-09-19 11:08:23 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2013
+2025-09-19 11:08:27 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:08:27 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:08:27 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:08:28 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 54 containers
+2025-09-19 11:08:29 - soft_block_crawler - INFO - ✅ Página 1: 54/54 produtos extraídos com sucesso
+2025-09-19 11:08:29 - soft_block_crawler - INFO - ✅ Página 1: 54 produtos extraídos (com detecção soft)
+2025-09-19 11:08:29 - soft_block_crawler - INFO - 🔍 Busca finalizada: 54 produtos em 17.2s
+2025-09-19 11:08:29 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:08:29 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:08:29 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_13_20250919_110829.json
+2025-09-19 11:08:29 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 11:08:46 - src.utils - INFO - ============================================================
+2025-09-19 11:08:46 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:08:46 - src.utils - INFO - ============================================================
+2025-09-19 11:08:46 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:08:47 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 11:08:47 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 11:08:48 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 11:08:51 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:08:51 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:08:51 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:08:51 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 50 containers
+2025-09-19 11:08:52 - soft_block_crawler - INFO - ✅ Página 1: 50/50 produtos extraídos com sucesso
+2025-09-19 11:08:52 - soft_block_crawler - INFO - ✅ Página 1: 50 produtos extraídos (com detecção soft)
+2025-09-19 11:08:52 - soft_block_crawler - INFO - 🔍 Busca finalizada: 50 produtos em 5.4s
+2025-09-19 11:08:52 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:08:52 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:08:52 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_110852.json
+2025-09-19 11:08:52 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 11:14:43 - src.utils - INFO - ============================================================
+2025-09-19 11:14:43 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:14:43 - src.utils - INFO - ============================================================
+2025-09-19 11:14:43 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:14:45 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 11:14:45 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 11:14:46 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 11:14:50 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:14:50 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:14:50 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:14:50 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 11:14:51 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 11:14:51 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 11:14:51 - soft_block_crawler - INFO - 🔍 Busca finalizada: 52 produtos em 6.3s
+2025-09-19 11:14:51 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:14:51 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:14:51 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_111451.json
+2025-09-19 11:15:06 - src.utils - INFO - ============================================================
+2025-09-19 11:15:06 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:15:06 - src.utils - INFO - ============================================================
+2025-09-19 11:15:06 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:15:08 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 11:15:08 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 11:15:09 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 11:15:13 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:15:13 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:15:13 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:15:13 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 11:15:15 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 11:15:15 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 11:15:15 - soft_block_crawler - INFO - 🔍 Busca finalizada: 52 produtos em 7.1s
+2025-09-19 11:15:15 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:15:15 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:15:15 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_111515.json
+2025-09-19 11:15:57 - src.utils - INFO - ============================================================
+2025-09-19 11:15:57 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:15:57 - src.utils - INFO - ============================================================
+2025-09-19 11:15:57 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:15:59 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 11:15:59 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 11:16:00 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 11:16:04 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:16:04 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:16:04 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:16:04 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 11:16:05 - soft_block_crawler - INFO - ✅ Página 1: 52/52 produtos extraídos com sucesso
+2025-09-19 11:16:05 - soft_block_crawler - INFO - ✅ Página 1: 52 produtos extraídos (com detecção soft)
+2025-09-19 11:16:06 - soft_block_crawler - INFO - 🔍 Busca finalizada: 52 produtos em 7.0s
+2025-09-19 11:16:06 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:16:06 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:16:06 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_111606.json
+2025-09-19 11:16:06 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 11:25:15 - src.utils - INFO - ============================================================
+2025-09-19 11:25:15 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:25:15 - src.utils - INFO - ============================================================
+2025-09-19 11:25:15 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:25:17 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 11:25:17 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 11:25:19 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 11:25:24 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:25:24 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:25:24 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:25:25 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 11:25:26 - soft_block_crawler - INFO - ✅ Página 1: 50/52 produtos extraídos com sucesso
+2025-09-19 11:25:26 - soft_block_crawler - INFO - ✅ Página 1: 50 produtos extraídos (com detecção soft)
+2025-09-19 11:25:27 - soft_block_crawler - INFO - 🔍 Busca finalizada: 50 produtos em 9.1s
+2025-09-19 11:25:27 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:25:27 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:25:27 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_112527.json
+2025-09-19 11:28:37 - src.utils - INFO - ============================================================
+2025-09-19 11:28:37 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:28:37 - src.utils - INFO - ============================================================
+2025-09-19 11:28:37 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:28:39 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 11:28:39 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 11:28:40 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 11:28:44 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:28:44 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:28:44 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:28:45 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 11:28:46 - soft_block_crawler - INFO - ✅ Página 1: 50/52 produtos extraídos com sucesso
+2025-09-19 11:28:46 - soft_block_crawler - INFO - ✅ Página 1: 50 produtos extraídos (com detecção soft)
+2025-09-19 11:28:46 - soft_block_crawler - INFO - 🔍 Busca finalizada: 50 produtos em 7.1s
+2025-09-19 11:28:46 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:28:46 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:28:46 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_112846.json
+2025-09-19 11:29:19 - src.utils - INFO - ============================================================
+2025-09-19 11:29:19 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:29:19 - src.utils - INFO - ============================================================
+2025-09-19 11:29:19 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:29:21 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 16
+2025-09-19 11:29:21 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 16
+2025-09-19 11:29:22 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2016
+2025-09-19 11:29:27 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:29:27 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:29:27 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:29:27 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 58 containers
+2025-09-19 11:29:28 - soft_block_crawler - INFO - ✅ Página 1: 57/58 produtos extraídos com sucesso
+2025-09-19 11:29:28 - soft_block_crawler - INFO - ✅ Página 1: 57 produtos extraídos (com detecção soft)
+2025-09-19 11:29:28 - soft_block_crawler - INFO - 🔍 Busca finalizada: 57 produtos em 7.6s
+2025-09-19 11:29:28 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:29:28 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:29:28 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_16_20250919_112928.json
+2025-09-19 11:29:28 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 11:30:09 - src.utils - INFO - ============================================================
+2025-09-19 11:30:09 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:30:09 - src.utils - INFO - ============================================================
+2025-09-19 11:30:09 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:30:10 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 16
+2025-09-19 11:30:10 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 16
+2025-09-19 11:30:11 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2016
+2025-09-19 11:30:15 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:30:15 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:30:15 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:30:15 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 58 containers
+2025-09-19 11:30:17 - soft_block_crawler - INFO - ✅ Página 1: 57/58 produtos extraídos com sucesso
+2025-09-19 11:30:17 - soft_block_crawler - INFO - ✅ Página 1: 57 produtos extraídos (com detecção soft)
+2025-09-19 11:30:17 - soft_block_crawler - INFO - 🔍 Busca finalizada: 57 produtos em 6.8s
+2025-09-19 11:30:17 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:30:17 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:30:17 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_16_20250919_113017.json
+2025-09-19 11:30:17 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 11:30:38 - src.utils - INFO - ============================================================
+2025-09-19 11:30:38 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:30:38 - src.utils - INFO - ============================================================
+2025-09-19 11:30:38 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:30:40 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 16
+2025-09-19 11:30:40 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 16
+2025-09-19 11:30:41 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2016
+2025-09-19 11:30:44 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:30:44 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:30:44 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:30:44 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 58 containers
+2025-09-19 11:30:45 - soft_block_crawler - INFO - ✅ Página 1: 57/58 produtos extraídos com sucesso
+2025-09-19 11:30:45 - soft_block_crawler - INFO - ✅ Página 1: 57 produtos extraídos (com detecção soft)
+2025-09-19 11:30:45 - soft_block_crawler - INFO - 🔍 Busca finalizada: 57 produtos em 5.5s
+2025-09-19 11:30:45 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:30:45 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:30:45 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_16_20250919_113045.json
+2025-09-19 11:30:45 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 11:34:05 - src.utils - INFO - ============================================================
+2025-09-19 11:34:05 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:34:05 - src.utils - INFO - ============================================================
+2025-09-19 11:34:05 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:34:07 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 11:34:07 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 11:34:08 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 11:34:12 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:34:12 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:34:12 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:34:12 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 11:34:13 - soft_block_crawler - INFO - ✅ Página 1: 50/52 produtos extraídos com sucesso
+2025-09-19 11:34:13 - soft_block_crawler - INFO - ✅ Página 1: 50 produtos extraídos (com detecção soft)
+2025-09-19 11:34:14 - soft_block_crawler - INFO - 🔍 Busca finalizada: 50 produtos em 6.8s
+2025-09-19 11:34:14 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:34:14 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:34:14 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_113414.json
+2025-09-19 11:34:36 - src.utils - INFO - ============================================================
+2025-09-19 11:34:36 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:34:36 - src.utils - INFO - ============================================================
+2025-09-19 11:34:36 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:34:37 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 15
+2025-09-19 11:34:37 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 15
+2025-09-19 11:34:38 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 11:34:42 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:34:42 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:34:42 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:34:43 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 52 containers
+2025-09-19 11:34:44 - soft_block_crawler - INFO - ✅ Página 1: 50/52 produtos extraídos com sucesso
+2025-09-19 11:34:44 - soft_block_crawler - INFO - ✅ Página 1: 50 produtos extraídos (com detecção soft)
+2025-09-19 11:34:44 - soft_block_crawler - INFO - 🔍 Busca finalizada: 50 produtos em 6.9s
+2025-09-19 11:34:44 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:34:44 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:34:44 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_113444.json
+2025-09-19 11:36:23 - src.utils - INFO - ============================================================
+2025-09-19 11:36:23 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:36:23 - src.utils - INFO - ============================================================
+2025-09-19 11:36:23 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:36:25 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 16
+2025-09-19 11:36:25 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 16
+2025-09-19 11:36:26 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2016
+2025-09-19 11:36:31 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:36:31 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:36:31 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:36:31 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 58 containers
+2025-09-19 11:36:33 - soft_block_crawler - INFO - ✅ Página 1: 57/58 produtos extraídos com sucesso
+2025-09-19 11:36:33 - soft_block_crawler - INFO - ✅ Página 1: 57 produtos extraídos (com detecção soft)
+2025-09-19 11:36:33 - soft_block_crawler - INFO - 🔍 Busca finalizada: 57 produtos em 8.6s
+2025-09-19 11:36:33 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:36:33 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:36:33 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_16_20250919_113633.json
+2025-09-19 11:36:33 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 11:40:19 - src.utils - INFO - ============================================================
+2025-09-19 11:40:19 - src.utils - INFO - CRAWLER MERCADO LIVRE - VERSÃO PROFISSIONAL
+2025-09-19 11:40:19 - src.utils - INFO - ============================================================
+2025-09-19 11:40:19 - src.utils - INFO - Modo SIMPLES - sem proxies
+2025-09-19 11:40:21 - src.utils - INFO - 🎯 Iniciando crawler SOFT-BLOCK-IGNORE para: iphone 16
+2025-09-19 11:40:21 - soft_block_crawler - INFO - 🔍 Iniciando busca IGNORANDO detecção soft para: iphone 16
+2025-09-19 11:40:22 - soft_block_crawler - INFO - 🔄 Processando página 1: https://lista.mercadolivre.com.br/iphone%2016
+2025-09-19 11:40:26 - soft_block_crawler - WARNING - ⚠️ Detecção soft encontrada: blocked, robot, detected
+2025-09-19 11:40:26 - soft_block_crawler - INFO - 🆔 Mas continuando extração - produtos podem estar presentes
+2025-09-19 11:40:26 - soft_block_crawler - WARNING - ⚠️ Detecção soft presente, mas continuando extração...
+2025-09-19 11:40:27 - soft_block_crawler - INFO - 🔪 Estratégia 1 encontrou 59 containers
+2025-09-19 11:40:28 - soft_block_crawler - INFO - ✅ Página 1: 58/59 produtos extraídos com sucesso
+2025-09-19 11:40:28 - soft_block_crawler - INFO - ✅ Página 1: 58 produtos extraídos (com detecção soft)
+2025-09-19 11:40:29 - soft_block_crawler - INFO - 🔍 Busca finalizada: 58 produtos em 8.1s
+2025-09-19 11:40:29 - soft_block_crawler - INFO - 🔓 Sucesso! Produtos extraídos mesmo com detecção
+2025-09-19 11:40:29 - src.utils - INFO - 🎉 Crawler soft-block-ignore funcionou!
+2025-09-19 11:40:29 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_16_20250919_114029.json
+2025-09-19 11:40:29 - src.utils - ERROR - Erro ao salvar arquivos: No module named 'openpyxl'
+2025-09-19 12:02:39 - src.utils - INFO - Iniciando crawler para: iphone 15
+2025-09-19 12:02:39 - src.crawler - INFO - Iniciando busca por: iphone 15
+2025-09-19 12:02:41 - src.crawler - INFO - Processando pÃ¡gina 1: https://lista.mercadolivre.com.br/iphone%2015
+2025-09-19 12:02:47 - src.crawler - INFO - PÃ¡gina 1: Layout detectado: poly-card
+2025-09-19 12:02:47 - src.crawler - INFO - PÃ¡gina 1: 50 containers encontrados
+2025-09-19 12:02:47 - src.crawler - INFO - PÃ¡gina 1: 50 produtos extraÃ­dos
+2025-09-19 12:02:47 - src.crawler - INFO - Primeiro produto - TÃ­tulo: Apple iPhone 15 Plus (256 GB) - Preto
+2025-09-19 12:02:47 - src.crawler - INFO - Primeiro produto - PreÃ§o: 6.347
+2025-09-19 12:02:47 - src.crawler - INFO - Primeiro produto - Vendedor: Por CELL TRONICS
+2025-09-19 12:02:47 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_120247.json
+2025-09-19 12:02:47 - src.utils - ERROR - Erro na execuÃ§Ã£o: No module named 'openpyxl'
+2025-09-19 12:02:48 - src.utils - INFO - JSON salvo em: C:\Users\Carlos Henrique\Desktop\PROJETOS\AcademiaCrawler\Crawler\output\json\mercadolivre_iphone_15_20250919_120247.json
+2025-09-19 12:02:48 - src.utils - ERROR - Falha ao salvar arquivos: No module named 'openpyxl'
