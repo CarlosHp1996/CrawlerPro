@@ -2,7 +2,7 @@
 
 ## Description
 
-Web scraping system to extract product data from Mercado Livre, developed with crawl4ai and BeautifulSoup.
+Web scraping system to extract product data from Mercado Livre, developed with Crawl4ai.
 
 ## Project Structure
 
@@ -84,18 +84,18 @@ var process = new Process
 
 Each product contains the following fields:
 
-title: Product title
-price: Price in cents (string for .NET compatibility)
-original_price: Original price (if discounted)
-discount_percentage: Discount percentage
-seller: Seller name
-rating: Rating (score)
-reviews_count: Number of reviews
-shipping: Shipping information
-product_url: Product URL
-image_url: High-quality image URL
-installments: Installment options
-location: Seller location
+- `title`: Product title
+- `price`: Price in cents (string for .NET compatibility)
+- `original_price`: Original price (if discounted)
+- `discount_percentage`: Discount percentage
+- `seller`: Seller name
+- `rating`: Rating (score)
+- `reviews_count`: Number of reviews
+- `shipping`: Shipping information
+- `product_url`: Product URL
+- `image_url`: High-quality image URL
+- `installments`: Installment options
+- `location`: Seller location
 
 ## Professional Features
 
@@ -103,9 +103,9 @@ location: Seller location
 
 The crawler implements a robust error handling system with:
 
-Custom Exceptions: Specific error types (NetworkException, BlockedException, etc.)
-Automatic Retry: Smart retry with exponential backoff and circuit breaker
-Structured Logging: JSON logs with detailed context and automatic rotation
+- `Custom Exceptions`: Specific error types (NetworkException, BlockedException, etc.)
+- `Automatic Retry`: Smart retry with exponential backoff and circuit breaker
+- `Structured Logging`: JSON logs with detailed context and automatic rotation
 
 ```python
 from src.exceptions import NetworkException, BlockedException
@@ -121,10 +121,10 @@ async def robust_request():
 
 Automatic collection of performance and system metrics:
 
-System Metrics: Memory usage, CPU, open files
-Request Metrics: Response time, success rate, throughput
-Automatic Alerts: Notifications under critical conditions
-Performance Reports: Detailed statistical analysis
+- `System Metrics`: Memory usage, CPU, open files
+- `Request Metrics`: Response time, success rate, throughput
+- `Automatic Alerts`: Notifications under critical conditions
+- `Performance Reports`: Detailed statistical analysis
 
 ```python
 from src.metrics import get_metrics_collector
@@ -138,10 +138,10 @@ performance_report = metrics.get_performance_report(last_minutes=10)
 
 Smart health monitoring system:
 
-Automatic Health Checks: Continuous system verification
-Adaptive Rate Limiting: Auto-adjust based on performance
-Memory Optimization: Automatic cleanup with configurable thresholds
-Corrective Actions: Automatic recovery from critical conditions
+- `Automatic Health Checks`: Continuous system verification
+- `Adaptive Rate Limiting`: Auto-adjust based on performance
+- `Memory Optimization`: Automatic cleanup with configurable thresholds
+- `Corrective Actions`: Automatic recovery from critical conditions
 
 ```python
 from src.health_monitor import setup_health_monitoring, ResourceLimits
@@ -177,30 +177,30 @@ python advanced_example.py
 
 This script demonstrates:
 
-Real-time monitoring
-Performance metrics
-Automatic health checks
-Adaptive rate limiting
-Memory optimization
+- `Real-time monitoring`
+- `Performance metrics`
+- `Automatic health checks`
+- `Adaptive rate limiting`
+- `Memory optimization`
 
 ## Architecture
 
 ### Main Classes
 
-MercadoLivreCrawler: Main crawler class with integrated systems
-FileExporter: Utilities for JSON/Excel export
-MetricsCollector: Metrics collection and analysis
-HealthMonitor: Health monitoring and self-optimization
-RetryManager: Smart retry system
-AdaptiveRateLimiter: Rate limiting that adapts to performance
+- `MercadoLivreCrawler`: Main crawler class with integrated systems
+- `FileExporter`: Utilities for JSON/Excel export
+- `MetricsCollector`: Metrics collection and analysis
+- `HealthMonitor`: Health monitoring and self-optimization
+- `RetryManager`: Smart retry system
+- `AdaptiveRateLimiter`: Rate limiting that adapts to performance
 
 ### Extraction Strategies
 
-Support for multiple layouts (Poly-Card and Classic)
-Robust CSS selectors with fallbacks
-Image validation and processing
-Automatic price conversion to cents
-Automatic detection of blocking and rate limiting
+- `Support for multiple layouts (Poly-Card and Classic)`
+- `Robust CSS selectors with fallbacks`
+- `Image validation and processing`
+- `Automatic price conversion to cents`
+- `Automatic detection of blocking and rate limiting`
 
 ## Logs and Monitoring
 
@@ -209,11 +209,11 @@ Outputs are saved in the output/ folder organized by format.
 
 ## Contribution
 
-1. Fork the project
-2. Create a feature branch (git checkout -b feature/AmazingFeature)
-3. Commit your changes (git commit -m 'Add some AmazingFeature')
-4. Push to the branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
+1. `Fork the project`
+2. `Create a feature branch (git checkout -b feature/AmazingFeature)`
+3. `Commit your changes (git commit -m 'Add some AmazingFeature')`
+4. `Push to the branch (git push origin feature/AmazingFeature)`
+5. `Open a Pull Request`
 
 ## License
 
