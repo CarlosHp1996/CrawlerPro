@@ -14,7 +14,7 @@ from .exceptions import (
     CrawlerBaseException, NetworkException, ParsingException, 
     BlockedException, RateLimitException, ValidationException
 )
-from .logging_config import setup_logging, get_logger
+from .logging_config import configure_logging, get_logger
 from .retry_system import (
     with_retry, get_retry_manager, NETWORK_RETRY_POLICY, 
     RATE_LIMIT_RETRY_POLICY, RetryPolicy
@@ -23,7 +23,7 @@ from .metrics import get_metrics_collector, setup_default_alerts
 from .health_monitor import get_adaptive_rate_limiter
 
 # Configure professional logging
-setup_logging()
+configure_logging()
 logger = get_logger(__name__)
 
 class MercadoLivreCrawler:

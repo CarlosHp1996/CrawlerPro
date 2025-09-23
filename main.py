@@ -1,60 +1,10 @@
 ﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Main script to run the crawler
-        if not args.json_output:
-            print("\n" + "="*60)
-            print("EXECUTION SUMMARY")
-            print("="*60)
-            print(f"Search term: {result['search_term']}")
-            print(f"Total products: {result['total_products']}")
-            print(f"Pages crawled: {result['pages_crawled']}")
-            print(f"Execution time: {result['execution_time']}s")
-            print(f"Status: {'✅ Success' if result['success'] else '❌ Error'}")
+Main script to run the MercadoLibre crawler.
 
-            if result.get('error_message'):
-                print(f"Error: {result['error_message']}")
-
-            # Show retry metrics if available
-            if result.get('retry_metrics'):
-                metrics = result['retry_metrics']
-                print(f"\nRetry Metrics:")
-                print(f"  - Success rate: {metrics.get('success_rate_percent', 0)}%")
-                print(f"  - Total attempts: {metrics.get('total_attempts', 0)}")
-                print(f"  - Successful retries: {metrics.get('successful_retries', 0)}")
-
-            # Show performance metrics if available
-            if result.get('performance_metrics'):
-                perf = result['performance_metrics']
-                requests_data = perf.get('requests', {})
-                system_data = perf.get('system', {})
-
-                print(f"\nPerformance Metrics:")
-                print(f"  - Total requests: {requests_data.get('total', 0)}")
-                print(f"  - Success rate: {requests_data.get('success_rate_percent', 0):.1f}%")
-                print(f"  - Average response time: {requests_data.get('avg_response_time_ms', 0):.0f}ms")
-                print(f"  - Memory usage: {system_data.get('memory_usage_mb', 0):.1f}MB")
-                print(f"  - CPU usage: {system_data.get('cpu_percent', 0):.1f}%")
-
-            # Show rate limiter status if available
-            if result.get('rate_limiter_status'):
-                rate_status = result['rate_limiter_status']
-                print(f"\nRate Limiter:")
-                print(f"  - Current delay: {rate_status.get('current_delay', 0):.2f}s")
-                print(f"  - Max concurrent: {rate_status.get('max_concurrent', 0)}")
-                recent_perf = rate_status.get('recent_performance', {})
-                if recent_perf:
-                    print(f"  - Recent performance: {recent_perf.get('success_rate', 0):.1%} success")
-
-            print(f"\nSaved files:")
-            for file in saved_files:
-                print(f"  - {file}")
-            print(f"Pages processed: {getattr(result, 'pages_crawled', getattr(result, 'get', lambda k, d=None: d)('pages_crawled', 0))}")
-            print(f"Execution time: {getattr(result, 'execution_time', getattr(result, 'get', lambda k, d=None: d)('execution_time', 0))}s")
-            print(f"Status: {'✅ Success' if getattr(result, 'success', getattr(result, 'get', lambda k, d=None: d)('success', False)) else '❌ Error'}")
-            print(f"Execution time: {result.execution_time}s")
-            print(f"Status: {'✅ Success' if result.success else '❌ Error'}")
-            print(f"Can be run standalone or called by the .NET backend")
+This script can be run standalone or called by the .NET backend.
+Supports JSON output for integration with other systems.
 """
 
 import asyncio
@@ -76,7 +26,7 @@ if sys.platform == "win32":
 # Add src to path
 sys.path.append(str(Path(__file__).parent / "src"))
 
-from src.logging_config import setup_logging, get_logger
+from src.logging_config import configure_logging, get_logger
 from src.health_monitor import setup_health_monitoring, ResourceLimits
 
 from config import Config
@@ -100,9 +50,8 @@ async def main():
 
     # Configure environment and professional logging
     Config.ensure_directories()
-    setup_logging(
-        log_level=args.log_level,
-        log_dir=Config.LOGS_DIR,
+    configure_logging(
+        level=args.log_level,
         enable_console=(not args.json_output)  # Disable console in integration mode
     )
     logger = get_logger(__name__)
@@ -153,14 +102,14 @@ async def main():
             print("\n" + "="*60)
             print("EXECUTION SUMMARY")
             print("="*60)
-            print(f"Search term: {result.search_term}")
-            print(f"Total products: {result.total_products}")
-            print(f"Pages crawled: {result.pages_crawled}")
-            print(f"Execution time: {result.execution_time}s")
-            print(f"Status: {'✔️ Success' if result.success else '❌ Error'}")
+            print(f"Search term: {result['search_term']}")
+            print(f"Total products: {result['total_products']}")
+            print(f"Pages crawled: {result['pages_crawled']}")
+            print(f"Execution time: {result['execution_time']}s")
+            print(f"Status: {'✔️ Success' if result['success'] else '❌ Error'}")
 
-            if result.error_message:
-                print(f"Error: {result.error_message}")
+            if result.get('error_message'):
+                print(f"Error: {result['error_message']}")
 
             print(f"\nSaved files:")
             for file in saved_files:
@@ -234,37 +183,37 @@ async def main():
         saved_files = []
         try:
             if args.output in ['json', 'both']:
-                json_file = FileExporter.save_to_json(result, Config.JSON_OUTPUT_DIR)
+                json_file = FileExporter.save_to_json(error_result, Config.JSON_OUTPUT_DIR)
                 saved_files.append(json_file)
                 logger.info(f"JSON saved to: {json_file}")
 
             if args.output in ['excel', 'both']:
-                excel_file = FileExporter.save_to_excel(result, Config.EXCEL_OUTPUT_DIR)
+                excel_file = FileExporter.save_to_excel(error_result, Config.EXCEL_OUTPUT_DIR)
                 saved_files.append(excel_file)
                 logger.info(f"Excel saved to: {excel_file}")
-        except Exception as e:
-            logger.error(f"Failed to save files: {e}")
+        except Exception as save_error:
+            logger.error(f"Failed to save files: {save_error}")
             # Do NOT crash the process if in integration mode
             if not args.json_output:
                 raise
 
-        # A good summary is only when it is NOT an integration.
+        # Show summary only when it is NOT an integration.
         if not args.json_output:
             print("\n" + "="*60)
             print("EXECUTION SUMMARY")
             print("="*60)
-            print(f"Search term: {getattr(result, 'search_term', getattr(result, 'get', lambda k, d=None: d)('search_term', ''))}")
-            print(f"Total products: {getattr(result, 'total_products', getattr(result, 'get', lambda k, d=None: d)('total_products', 0))}")
-            print(f"Processed pages: {getattr(result, 'pages_crawled', getattr(result, 'get', lambda k, d=None: d)('pages_crawled', 0))}")
-            print(f"Execution time: {getattr(result, 'execution_time', getattr(result, 'get', lambda k, d=None: d)('execution_time', 0))}s")
-            print(f"Status: {'✔ Success' if getattr(result, 'success', getattr(result, 'get', lambda k, d=None: d)('success', False)) else '✖ Error'}")
-            if getattr(result, 'error_message', getattr(result, 'get', lambda k, d=None: d)('error_message', '')):
-                print(f"Error: {getattr(result, 'error_message', getattr(result, 'get', lambda k, d=None: d)('error_message', ''))}")
+            print(f"Search term: {error_result['search_term']}")
+            print(f"Total products: {error_result['total_products']}")
+            print(f"Pages crawled: {error_result['pages_crawled']}")
+            print(f"Execution time: {error_result['execution_time']}s")
+            print(f"Status: {'✔ Success' if error_result['success'] else '✖ Error'}")
+            if error_result.get('error_message'):
+                print(f"Error: {error_result['error_message']}")
             print(f"\nSaved files:")
             for file in saved_files:
                 print(f"  - {file}")
 
-        return True
+        return False
 
 
 if __name__ == "__main__":

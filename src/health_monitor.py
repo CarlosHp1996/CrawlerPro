@@ -9,12 +9,18 @@ import asyncio
 import gc
 import threading
 import time
-import resource
+import sys
 from typing import Dict, Any, List, Optional, Callable, Tuple
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 import psutil
 import logging
+
+# Import resource module only on Unix systems
+if sys.platform != "win32":
+    import resource
+else:
+    resource = None
 
 from .logging_config import get_logger
 from .metrics import get_metrics_collector, MetricsCollector
