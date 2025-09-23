@@ -544,7 +544,8 @@ class MercadoLivreCrawler:
         
         price_raw = self._extract_text_with_selectors(soup_container, selectors['price_current'])
         price = self._convert_price_to_cents_string(price_raw)
-        original_price = self._extract_text_with_selectors(soup_container, selectors['price_original'])
+        original_price_raw = self._extract_text_with_selectors(soup_container, selectors['price_original'])
+        original_price = self._convert_price_to_cents_string(original_price_raw)
         discount = self._extract_text_with_selectors(soup_container, selectors['discount'])
         
         return {
