@@ -4,10 +4,46 @@ import json
 import logging
 import os
 import sys
+import re
 from pathlib import Path
 from datetime import datetime
-from typing import List
+from typing import List, Optional
 from .models import CrawlerResult, ProductData
+
+
+def convert_to_decimal(value_text: str) -> Optional[float]:
+    """
+    Convert price string to float
+    
+    Args:
+        value_text: Price string (e.g., "49,90", "1.234,56")
+    
+    Returns:
+        Float value or None if conversion fails
+        
+    Examples:
+        >>> convert_to_decimal("49,90")
+        49.90
+        >>> convert_to_decimal("1.234,56")
+        1234.56
+    """
+    if not value_text:
+        return None
+    
+    try:
+        # Remove periods (thousands separators) and replace comma with dot
+        clean_text = value_text.replace('.', '').replace(',', '.')
+        # Extract only numbers and decimal point
+        clean_text = re.sub(r'[^\d.]', '', clean_text)
+        
+        if not clean_text:
+            return None
+        
+        return float(clean_text)
+        
+    except (ValueError, AttributeError):
+        return None
+
 
 def _get_attr(obj, name, default=None):
     if isinstance(obj, dict):
@@ -35,8 +71,9 @@ class FileExporter:
     def save_to_json(result: CrawlerResult, output_dir: Path) -> str:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         search_term = _get_attr(result, 'search_term', '') or ''
+        platform = _get_attr(result, 'platform', 'unknown') or 'unknown'
         safe_search_term = ''.join(c for c in search_term.replace(' ', '_') if c.isalnum() or c in ['_', '-'])
-        filename = f"mercadolivre_{safe_search_term}_{timestamp}.json"
+        filename = f"{platform}_{safe_search_term}_{timestamp}.json"
         filepath = output_dir / filename
 
         try:
@@ -60,8 +97,9 @@ class FileExporter:
     def save_to_excel(result: CrawlerResult, output_dir: Path) -> str:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         search_term = _get_attr(result, 'search_term', '') or ''
+        platform = _get_attr(result, 'platform', 'unknown') or 'unknown'
         safe_search_term = ''.join(c for c in search_term.replace(' ', '_') if c.isalnum() or c in ['_', '-'])
-        filename = f"mercadolivre_{safe_search_term}_{timestamp}.xlsx"
+        filename = f"{platform}_{safe_search_term}_{timestamp}.xlsx"
         filepath = output_dir / filename
 
         try:

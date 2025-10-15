@@ -193,6 +193,23 @@ class Config:
                 'img[src*="mlstatic"]',
                 'img'
             ]
+        },
+        
+        # Amazon Brasil selectors
+        'AMAZON': {
+            'CONTAINER': 'div.s-main-slot',
+            'PRODUCT_CARD': 'div[data-component-type="s-search-result"]',
+            'TITLE': 'h2.a-size-base-plus',
+            'LINK': 'h2 a',
+            'IMAGE': 'img.s-image',
+            'PRICE_WHOLE': 'span.a-price-whole',
+            'PRICE_FRACTION': 'span.a-price-fraction',
+            'ORIGINAL_PRICE': 'span.a-price.a-text-price[data-a-strike="true"] span.a-offscreen',
+            'RATING': 'span.a-icon-alt',
+            'REVIEWS_COUNT': 'span.a-size-base.s-underline-text',
+            'PRIME_BADGE': 'i.a-icon-prime',
+            'SELLER': 'span.a-size-small.a-color-secondary',  # Often not in search results
+            'PAGINATION': 'span.s-pagination-item'
         }
     }
 
